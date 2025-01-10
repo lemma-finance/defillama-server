@@ -789,5 +789,29 @@ const data4: Protocol[] = [
     github: ["marginzero-xyz"],
     listedAt: 1736470171
   },
+  {
+    id: "5613",
+    name: "InfinityPools",
+    address: null,
+    symbol: "-",
+    url: "https://infinitypools.finance/",
+    description:
+      "InfinityPools is a decentralized exchange that can offer unlimited leverage on any asset, with no liquidations, no counterparty risk & no oracles.",
+    chain: "Base",
+    logo: `${baseIconsUrl}/infintityPools.png`,
+    audits: "1",
+    audit_note: null,
+    gecko_id: null,
+    cmcId: null,
+    category: "Options",
+    chains: ["Base"],
+    oracles: [],
+    forkedFrom: [],
+    module: "infintityPools/index.js",
+    audit_links: ["https://github.com/abdk-consulting/audits/blob/main/lemmalabs/ABDK_LemmaLabs_InfinityPools_v_2_0.pdf"],
+    twitter: "InfPools",
+    github: ["lemma-finance"],
+    listedAt: 1736504035
+  },
 ];
 export default data4;
